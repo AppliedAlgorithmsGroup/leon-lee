@@ -1,4 +1,7 @@
 # INFO 298: Applied Algorithms Overview
+[![Build Status](https://travis-ci.com/leon-lee-jl/leetcode.svg?token=vG87w6v3Qj2vBxp6ZULJ&branch=master)](https://travis-ci.com/leon-lee-jl/leetcode)
+[![Requirements Status](https://requires.io/github/leon-lee-jl/leetcode/requirements.svg?branch=master)](https://requires.io/github/leon-lee-jl/leetcode/requirements/?branch=master)
+
 
 The goal of this group study is to be able to program solutions to hard 
 algorithmic problems.
