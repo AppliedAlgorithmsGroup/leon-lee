@@ -2,9 +2,9 @@
 
 The goal of this group study is to be able to program solutions to hard 
 algorithmic problems.
- * Solve 2 algorithm problems each week and share.
+ * Solve two algorithm problems each week and share.
  * Code Review as a group on the assignment.
- * Do 1 whiteboarding session each week on solving problems.
+ * Do one white boarding session each week on solving problems.
  * Periodically enter coding challenges online to assess our capabilities.
 
 ---------------------------------------
@@ -14,7 +14,7 @@ algorithmic problems.
     - [***Week One***](#week-one)
     - [***Week Two***](#week-two)
     - [***Week Three***](#week-three)
-- [**Todo**]
+- [**Todo**](#todo)
 
 ---------------------------------------
 ## Syllabus
@@ -51,8 +51,6 @@ algorithmic problems.
 
 ![fibonacci_modified_1](results/fibonacci_modified_1.jpeg)
 ![fibonacci_modified_2](results/fibonacci_modified_2.jpeg)
-
-
 
 ### Week Three
 

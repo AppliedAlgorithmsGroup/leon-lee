@@ -16,3 +16,4 @@ hs_err_pid*
 /.cache/
 /.coverage
 /docs/python/_build/
+/out/
