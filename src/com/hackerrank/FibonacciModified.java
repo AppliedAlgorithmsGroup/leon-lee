@@ -20,6 +20,9 @@
 
 package com.leetcode;
 
+import java.math.BigInteger;
+import java.util.Scanner;
+
 /**
  * Created by Leon on 2/14/17.
  * Fibonacci Modified (https://www.hackerrank
@@ -72,6 +75,30 @@ package com.leetcode;
  * print term t(5), which is 5.
  */
 public class FibonacciModified {
-    public FibonacciModified() {
+    private BigInteger numberT1;
+    private BigInteger numberT2;
+    private BigInteger tmpNumbe;
+    private int numberN;
+
+    public FibonacciModified(int numberT1, int numberT2, int numberN) {
+        if (0 <= numberT1 && numberT1 <= 2 && 0 <= numberT2 && numberT2 <= 2
+                && 3 <= numberN && numberN <= 20) {
+            this.numberT1 = BigInteger.valueOf(numberT1);
+            this.numberT2 = BigInteger.valueOf(numberT2);
+            this.numberN = numberN;
+        } else {
+            throw new IllegalArgumentException("The input values error.");
+        }
+    }
+
+    public BigInteger calculateModifiedFibonacci() {
+        numberN--;
+        if (numberN != 0) {
+            tmpNumbe = numberT2;
+            numberT2 = numberT1.add(numberT2.multiply(numberT2));
+            numberT1 = tmpNumbe;
+            calculateModifiedFibonacci();
+        }
+        return numberT1;
     }
 }
