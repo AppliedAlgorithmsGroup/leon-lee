@@ -4,10 +4,10 @@ python package
 Submodules
 ----------
 
-python.hamming_distance module
-------------------------------
+python.equal module
+-------------------
 
-.. automodule:: python.hamming_distance
+.. automodule:: python.equal
     :members:
     :undoc-members:
     :show-inheritance:

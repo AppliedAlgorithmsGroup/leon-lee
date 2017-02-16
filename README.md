@@ -48,9 +48,10 @@ algorithmic problems.
 ### Week Two
 
 [Euqal](https://www.hackerrank.com/challenges/equal)
+![fibonacci_modified_1](results/equal_1.jpeg)
+![fibonacci_modified_2](results/equal_2.jpeg)
 
 [Fibonacci Modified](https://www.hackerrank.com/challenges/fibonacci-modified)
-
 ![fibonacci_modified_1](results/fibonacci_modified_1.jpeg)
 ![fibonacci_modified_2](results/fibonacci_modified_2.jpeg)
 
