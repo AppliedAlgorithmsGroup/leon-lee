@@ -4,6 +4,14 @@ python package
 Submodules
 ----------
 
+python.binary_tree_zigzag_level_order_traversal module
+------------------------------------------------------
+
+.. automodule:: python.binary_tree_zigzag_level_order_traversal
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 python.equal module
 -------------------
 

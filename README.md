@@ -56,6 +56,8 @@ algorithmic problems.
 ![fibonacci_modified_2](results/fibonacci_modified_2.jpeg)
 
 ### Week Three
-
+[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/?tab=Description)
+![binary_tree_zigzag_level_order_traversal_1](results/binary_tree_zigzag_level_order_traversal_1.jpeg)
+![binary_tree_zigzag_level_order_traversal_2](results/binary_tree_zigzag_level_order_traversal_2.jpeg)
 ---------------------------------------
 ## Todo
