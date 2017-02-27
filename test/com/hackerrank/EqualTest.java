@@ -18,7 +18,7 @@
  *  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.leetcode;
+package com.hackerrank;
 
 /**
  * Created by Leon on 2/14/17.

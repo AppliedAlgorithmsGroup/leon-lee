@@ -18,7 +18,7 @@
  *  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.leetcode;
+package com.hackerrank;
 
 import java.math.BigInteger;
 import java.util.Scanner;

@@ -20,41 +20,12 @@
 
 package com.hackerrank;
 
-import org.junit.Test;
-
-import java.math.BigInteger;
-
-import static junit.framework.TestCase.assertEquals;
-
 /**
- * Created by Leon on 2/14/17.
+ * Created by Leon on 2/26/17.
  */
-public class FibonacciModifiedTest {
-    @Test
-    public void zeroOneFiveShouldOutputFive() {
-        FibonacciModified fibonacciModified = new FibonacciModified(0, 1, 5);
-        assertEquals(BigInteger.valueOf(5), fibonacciModified
-                .calculateModifiedFibonacci());
-    }
-
-    @Test
-    public void bigOutputTest() {
-        FibonacciModified fibonacciModified = new FibonacciModified(0, 1,
-                10);
-        String stringNumber = "84266613096281243382112";
-        assertEquals(new BigInteger(stringNumber), fibonacciModified
-                .calculateModifiedFibonacci());
-    }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void minusOneAndTwoAndFiveShouldThrowException() {
-        FibonacciModified fibonacciModified = new FibonacciModified(-1, 2,
-                5);
-    }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void OneAndTwoAndTwoShouldThrowException() {
-        FibonacciModified fibonacciModified = new FibonacciModified(-1, 2,
-                2);
-    }
+public class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
 }

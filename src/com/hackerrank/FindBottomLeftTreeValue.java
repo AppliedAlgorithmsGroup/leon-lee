@@ -20,41 +20,60 @@
 
 package com.hackerrank;
 
-import org.junit.Test;
-
-import java.math.BigInteger;
-
-import static junit.framework.TestCase.assertEquals;
-
 /**
- * Created by Leon on 2/14/17.
+ * Created by Leon on 2/26/17.
+ * #513 Find Bottom Left Tree Value (Medium)
+ *
+ * Given a binary tree, find the leftmost value in the last row of the tree.
+ *
+ * Example 1:
+ *
+ * Input:
+ *
+ *   2
+ *  / \
+ * 1   3
+ *
+ * Output:
+ *
+ * 1
+ *
+ * Examples 2:
+ *
+ * Input:
+ *
+ *     1
+ *    / \
+ *   2   3
+ *  /   / \
+ * 4   5   6
+ *    /
+ *   7
+ *
+ * Output:
+ *
+ * 7
  */
-public class FibonacciModifiedTest {
-    @Test
-    public void zeroOneFiveShouldOutputFive() {
-        FibonacciModified fibonacciModified = new FibonacciModified(0, 1, 5);
-        assertEquals(BigInteger.valueOf(5), fibonacciModified
-                .calculateModifiedFibonacci());
+
+
+public class FindBottomLeftTreeValue {
+    private int result = 0;
+    private int height = 0;
+
+    public int findBottomLeftValue(TreeNode root) {
+        traverseTree(root, 1);
+        return result;
     }
 
-    @Test
-    public void bigOutputTest() {
-        FibonacciModified fibonacciModified = new FibonacciModified(0, 1,
-                10);
-        String stringNumber = "84266613096281243382112";
-        assertEquals(new BigInteger(stringNumber), fibonacciModified
-                .calculateModifiedFibonacci());
-    }
+    private void traverseTree(TreeNode root, int depth) {
+        if (root == null) return;
 
-    @Test(expected = IllegalArgumentException.class)
-    public void minusOneAndTwoAndFiveShouldThrowException() {
-        FibonacciModified fibonacciModified = new FibonacciModified(-1, 2,
-                5);
-    }
+        if (height < depth) {
+            result = root.val;
+            height = depth;
+        }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void OneAndTwoAndTwoShouldThrowException() {
-        FibonacciModified fibonacciModified = new FibonacciModified(-1, 2,
-                2);
+        traverseTree(root.left, depth + 1);
+        traverseTree(root.right, depth + 1);
     }
 }
