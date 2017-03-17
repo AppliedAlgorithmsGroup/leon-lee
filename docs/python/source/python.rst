@@ -28,6 +28,14 @@ python.linked_list_cycle module
     :undoc-members:
     :show-inheritance:
 
+python.wiggle_sort_ll module
+----------------------------
+
+.. automodule:: python.wiggle_sort_ll
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 Module contents
 ---------------
