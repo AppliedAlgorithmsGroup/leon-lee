@@ -20,6 +20,14 @@ python.equal module
     :undoc-members:
     :show-inheritance:
 
+python.linked_list_cycle module
+-------------------------------
+
+.. automodule:: python.linked_list_cycle
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 Module contents
 ---------------
