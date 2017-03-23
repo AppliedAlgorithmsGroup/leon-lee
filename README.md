@@ -18,6 +18,7 @@ algorithmic problems.
     - [***Week Three***](#week-three)
     - [***Week Four***](#week-four)
     - [***Week Five***](#week-five)
+    - [***Week Six***](#week-six)
 - [**Todo**](#todo)
 
 ---------------------------------------
@@ -80,5 +81,13 @@ algorithmic problems.
 ![wiggle_sort_ll_1](results/wiggle_sort_ll_1.jpeg)
 ![wiggle_sort_ll_2](results/wiggle_sort_ll_2.jpeg)
 
+### Week Six
+[Largest Number](https://leetcode.com/problems/largest-number/#/description)
+![largest_number_1](results/largest_number_1.jpeg)
+![largest_number_2](results/largest_number_2.jpeg)
+
+[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/#/description)
+![spiral_matrix_1](results/spiral_matrix_1.jpeg)
+![spiral_matrix_2](results/spiral_matrix_2.jpeg)
 ---------------------------------------
 ## Todo

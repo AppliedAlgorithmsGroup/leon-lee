@@ -20,6 +20,14 @@ python.equal module
     :undoc-members:
     :show-inheritance:
 
+python.largest_number module
+----------------------------
+
+.. automodule:: python.largest_number
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 python.linked_list_cycle module
 -------------------------------
 
